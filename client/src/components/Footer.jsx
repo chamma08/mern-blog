@@ -58,7 +58,7 @@ export default function FooterCom() {
             </div>
             <Footer.Divider/>
             <div className='w-full sm:flex sm:items-center sm:justify-between'>
-                <Footer.Copyright href='#' by="Matheesha's Blog" year={new Date().getFullYear()}/>
+                <Footer.Copyright href='#' by="Matheesha Dissanayake" year={new Date().getFullYear()}/>
                 <div className='flex gap-6 sm:mt-0 mt-4 sm:justify-center'>
                     <Footer.Icon href='#' icon={BsFacebook} className='text-blue-500'/>
                     <Footer.Icon href='#' icon={BsInstagram} className='text-red-800'/>
